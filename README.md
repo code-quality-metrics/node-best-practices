@@ -15,6 +15,7 @@ Node has a simple and small core leaving the bulk of features to npm packages.
 The Node.js way, in fact, involves extreme levels of reusability. Applications are composed of a high number of small, well-focused dependencies. 
 
 https://nodejs.dev/introduction-to-nodejs
+
 https://simpleprogrammer.com/top-4-javascript-concepts-a-node-js-beginner-must-know/
 
 ## The event loop
@@ -23,6 +24,7 @@ One instance, one thread. The event loop doesn’t get generated instantly as so
 Node provides multithreading through libraries like fs module. They run outside the node thread.
 
 https://blog.logrocket.com/a-complete-guide-to-the-node-js-event-loop/
+
 https://www.youtube.com/watch?v=PNa9OMajw9w
 
 ## Best practices
@@ -42,6 +44,7 @@ https://www.youtube.com/watch?v=PNa9OMajw9w
 - Dont rely on big npm packages for small tasks (I'm looking at you lodash)
 
 https://medium.com/swlh/common-mistakes-that-node-js-developers-make-9df7106d09f1
+
 https://github.com/goldbergyoni/nodebestpractices
 
 ## Testing:
@@ -60,4 +63,10 @@ https://github.com/goldbergyoni/nodebestpractices
 - Hide your tech stack
 https://en.wikipedia.org/wiki/Denial-of-service_attack
 
-TODO: file structure, express, experience, auth, db, models, feature modules or not...
+TODO: 
+- file structure
+- express
+- past experiences
+- auth
+- db and models
+- feature modules or not...
