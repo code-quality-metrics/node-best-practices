@@ -41,7 +41,6 @@ https://www.youtube.com/watch?v=PNa9OMajw9w
 - All requires at the top of the files.
 - Dont reinvent the wheel, use npm
 - Decouple api from frontend.
-- Dont rely on big npm packages for small tasks (I'm looking at you lodash)
 
 https://medium.com/swlh/common-mistakes-that-node-js-developers-make-9df7106d09f1
 
