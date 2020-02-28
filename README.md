@@ -66,13 +66,18 @@ How to break it
 
 - Implement rate limiting using an external service
 - Follow standards for session management (keep it in a middleware) oauth etc. Provide easy revocabilty.
-- Use bcript for passwords (salt)
+- Use bcrypt for passwords (salt)
 - Validate JSONs
 - Provide visibility of all entrypoints to the service (login, auth...) limit calls agains brute force.
 - Take care of errors not giving up PI (this email is not in our system). Dont return whole errors to the client.
 - Careful with regex validation. Evil regex could take seconds to validate and block the event loop.
-- Hide your tech stack
-  <https://en.wikipedia.org/wiki/Denial-of-service_attack>
+- Hide your tech stack <https://en.wikipedia.org/wiki/Denial-of-service_attack>
+- Take care of secrets and .env files.
+- Prevent introducing user input into `eval()`, `setTimeout()` and `setInterval()` functions. This could cause the execution of said input.
+<https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d>
+<https://www.npmjs.com/package/helmet>
+
+Express recommendations and useful packages: <https://expressjs.com/en/advanced/best-practice-security.html>
 
 TODO:
 
