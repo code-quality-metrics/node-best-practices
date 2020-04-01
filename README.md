@@ -1,6 +1,7 @@
 # Node and Express Best practices
 
 Exploring and explaining Node JS and Express best practices and architecture designs.
+See [js_and_node](js_and_node.md) for an overview of the basics about JS and Node.
 
 ## Node principles
 
@@ -51,6 +52,7 @@ How to break it
 - All requires at the top of the files.
 - Dont reinvent the wheel, use npm
 - Decouple api from frontend.
+- Use semantic versioning for your modules: Major.Minor.Patch 1.9.12 <https://semver.org>
 
 <https://medium.com/swlh/common-mistakes-that-node-js-developers-make-9df7106d09f1>
 
@@ -61,6 +63,8 @@ How to break it
 - Unit testing, coverage
 - Integration / acceptance. This one is the most important, keeps consistency and reliablity.
 - Penetration, performance, dependencies,
+
+More about testing: [Testing](testing.md)
 
 ## Security
 
@@ -87,4 +91,3 @@ TODO:
 - auth
 - db and models
 - feature modules or not...
-
