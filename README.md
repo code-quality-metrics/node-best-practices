@@ -1,7 +1,13 @@
 # Node and Express Best practices
 
 Exploring and explaining Node JS and Express best practices and architecture designs.
-See [js_and_node](js_and_node.md) for an overview of the basics about JS and Node.
+
+Other resources:
+
+- [Overview of the basics about JS and Node](js_and_node.md)
+- [Node as a web server](web_server.md)
+- [Modularity](modularity.md)
+- [Testing](testing.md)
 
 ## Node principles
 
